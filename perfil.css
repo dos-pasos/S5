@@ -12,7 +12,8 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
   son independientes de la estructura del HTML
 */
 body{background-color: yellow;}
-.aplicacion{background-color: rgba(16, 18, 27,0.4);}
+.aplicacion{background-color: rgba(16,18,27,0.4);}
+
 
 /*
 Organización: por objetos.
@@ -25,3 +26,18 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   Se puede añadir paddins y margins, y otros espacios.
   Son dependientes del html.
 */
+
+/*Elemento círculos de ventana*/
+@media screen and (max-width:500px){
+  .aplicacion__opt-ventana{
+      display:none;
+  }
+}
+
+.aplicacion__opt-ventana{
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 24px 0 0 0 #f8ce52, 48px 0 0 0 #5fcf65;
+}
