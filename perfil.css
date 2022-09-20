@@ -1,0 +1,27 @@
+/*
+Organización: por propiedad.
+  Una propiedad CSS es usada por los elemento html
+  incorporados en el selector
+alcance: el archivo html
+Descripción: Los selectores deben moverse a la propiedad que se requiera.
+  Usted es libre de escribir en el html las clases, o usar los selectores
+  que crea conveniente. Si una propiedad tiene varios selectores y desea
+  modificar una de ellas, entonces cree una nueva línea con el nuevo
+  valor de la propiedad, luego mueva el selector a esa nueva línea.
+  Se permite herencia. Los selectores tienen que ser descriptivos. Estas
+  son independientes de la estructura del HTML
+*/
+body{background-color: yellow;}
+.aplicacion{background-color: rgba(16, 18, 27,0.4);}
+
+/*
+Organización: por objetos.
+Descripción: se agrupa los selectores por bloques con sus respectivos
+  elementos. Los bloques son independientes de otros bloques.
+  se evita que los bloques hereden las propiedades de sus padres de
+  manera tácita, es decir se debe hacer explícita.
+  De arriba hacia abajo. En caso de que se tenga sub elementos, volver
+  los pixeles base.
+  Se puede añadir paddins y margins, y otros espacios.
+  Son dependientes del html.
+*/
