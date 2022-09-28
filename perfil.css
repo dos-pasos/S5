@@ -13,7 +13,9 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
 */
 body{background-color: yellow;}
 .aplicacion{background-color: rgba(16,18,27,0.4);}
-
+.aplicacion{height: 90vh;}
+.aplicacion__opt-ventana{background-color: red;}
+svg{width: 25px;height: 25px;}
 
 /*
 Organización: por objetos.
@@ -27,17 +29,38 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   Son dependientes del html.
 */
 
-/*Elemento círculos de ventana*/
-@media screen and (max-width:500px){
-  .aplicacion__opt-ventana{
-      display:none;
-  }
+
+
+/*aplicacion*/
+.aplicacion__cabecera{
+  display: flex;
+  height: 58px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  white-space: nowrap;
 }
 
+
+
+.aplicacion__opt-generales
+}
+
+.aplicacion__busqueda{}
+
+.aplicacion__perfil{}
+
+
+/*Elemento círculos de ventana*/
 .aplicacion__opt-ventana{
-  background-color: red;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   box-shadow: 24px 0 0 0 #f8ce52, 48px 0 0 0 #5fcf65;
+  margin-right: 190px;
+}
+
+/*items de opciones generales*/
+.opt_generales__enlace{
+  text-decoration: none;
+  padding: 20px 30px;
 }
