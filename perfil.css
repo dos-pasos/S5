@@ -57,6 +57,7 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   border-radius: 50%;
   box-shadow: 24px 0 0 0 #f8ce52, 48px 0 0 0 #5fcf65;
   margin-right: 190px;
+  flex-shrink:0;
 }
 
 /*items de opciones generales*/
