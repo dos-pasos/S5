@@ -17,6 +17,7 @@ body{background-color: yellow;}
 .aplicacion__opt-ventana{background-color: red;}
 svg{width: 25px;height: 25px;}
 
+
 /*
 Organización: por objetos.
 Descripción: se agrupa los selectores por bloques con sus respectivos
@@ -42,7 +43,7 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 
 
 
-.aplicacion__opt-generales
+.aplicacion__opt-generales{
 }
 
 .aplicacion__busqueda{}
@@ -67,7 +68,9 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 }
 
 @media screen and (max-width:500px){
-
+  .aplicacion__opt-ventana, .opt_generales__nombre, 
+  .opt_generales__trabajos, .opt_generales__descubre{display: none;}
+  
 }
 
 @media screen and (max-width: 750px){
