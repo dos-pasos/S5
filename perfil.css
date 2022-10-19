@@ -52,6 +52,13 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 .aplicacion__perfil{}
 
 
+.aplicacion__numero{width: 16px; height: 16px;}
+.profile-img{width: 32px; height: 32px;}
+.aplicacion__numero, .profile-img{
+  border-radius: 50%;
+}
+
+
 /*Elemento círculos de ventana*/
 .aplicacion__opt-ventana{
   width: 15px;
