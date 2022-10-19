@@ -16,7 +16,8 @@ body{background-color: yellow;}
 .aplicacion{height: 90vh;}
 .aplicacion__opt-ventana{background-color: red;}
 svg{width: 25px;height: 25px;}
-
+.aplicacion__numero{background-color: blue;}
+.aplicacion__numero{color: white;}
 
 /*
 Organización: por objetos.
