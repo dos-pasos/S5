@@ -44,18 +44,20 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 
 
 
-.aplicacion__opt-generales{
-}
+.aplicacion__opt-generales{display: flex;}
 
-.aplicacion__busqueda{}
+.aplicacion__busqueda{display: flex;align-items: center;}
 
-.aplicacion__perfil{}
+.aplicacion__perfil{display: flex; align-items: center;}
 
+.aplicacion__notificacion{display: flex;align-items: center;}
 
 .aplicacion__numero{width: 16px; height: 16px;}
 .profile-img{width: 32px; height: 32px;}
 .aplicacion__numero, .profile-img{
   border-radius: 50%;
+  flex-shrink:0;
+  text-align: center;
 }
 
 
