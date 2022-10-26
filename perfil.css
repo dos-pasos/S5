@@ -11,8 +11,8 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
   Se permite herencia. Los selectores tienen que ser descriptivos. Estas
   son independientes de la estructura del HTML
 */
-body{background-color: yellow;}
-.aplicacion{background-color: rgba(16,18,27,0.4);}
+body{background-color: white;}
+.aplicacion{background-color: white;}
 .aplicacion{height: 90vh;}
 .aplicacion__opt-ventana{background-color: red;}
 svg{width: 25px;height: 25px;}
