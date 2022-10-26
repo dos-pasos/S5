@@ -77,6 +77,14 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   padding: 20px 30px;
 }
 
+.contenido__resumeme{
+  display: flex;
+  border-radius:14px;
+  background-image:linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
+  padding:20px 24px;
+  align-items:center;  
+}
+
 @media screen and (max-width:500px){
   .aplicacion__opt-ventana, .opt_generales__nombre, 
   .opt_generales__trabajos, .opt_generales__descubre,.aplicacion__opciones-personales{display: none;}
