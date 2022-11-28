@@ -11,15 +11,45 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
   Se permite herencia. Los selectores tienen que ser descriptivos. Estas
   son independientes de la estructura del HTML
 */
-body{background-color: white;}
-.aplicacion{background-color: white;}
-.aplicacion{height: 90vh;}
-.aplicacion__opt-ventana{background-color: red;}
-svg{width: 25px;height: 25px;}
-.aplicacion__numero{background-color: blue;}
-.inf-ge__informacion{background-color:rgb(146 151 179 / 13%);}
-.aplicacion__numero{color: white;}
+:root{
+  --paleVioletRed9934: hsl(330, 67%, 56%);
+  --indigo: hsl(274, 100%, 26%);
+  --whiteSmoke: hsl(225, 17%, 95%);
+  --royalBlue9993:hsl(223, 51%, 59%);
+  --cornflowerBlue9993: hsl(223, 85%, 71%);
+  --khaki9996: hsl(52.571, 100%, 79%);
+  --red: hsl(0, 100%, 50%);
+  --dimGray9999: hsl(0, 0%, 40%);
+  --darkGray: hsl(0, 0%, 30%);
+  --white: hsl(0, 0%, 100%);
+}
 
+body{background-color: var(--khaki9996);}
+.aplicacion{background-color: var(--white);}
+.aplicacion{height: 90vh;}
+.aplicacion__opt-ventana{background-color: var(--red);}
+svg{width: 25px;height: 25px;}
+.aplicacion__numero{background-color: var(--royalBlue9993);}
+.inf-ge__informacion{background-color:hsla(230, 18%, 64%, 0.13);}
+.aplicacion__numero{color: white;}
+.contenido__resumeme{background-image: linear-gradient(
+  45deg,
+  hsl(287deg 88% 62%) 0%,
+  hsl(293deg 84% 60%) 8%,
+  hsl(300deg 81% 59%) 17%,
+  hsl(306deg 78% 57%) 25%,
+  hsl(310deg 83% 57%) 33%,
+  hsl(314deg 87% 57%) 42%,
+  hsl(318deg 92% 58%) 50%,
+  hsl(321deg 93% 58%) 58%,
+  hsl(324deg 96% 59%) 67%,
+  hsl(327deg 98% 59%) 75%,
+  hsl(355deg 99% 62%) 83%,
+  hsl(23deg 99% 64%) 92%,
+  hsl(51deg 100% 66%) 100%
+);}
+.aplicacion__opt-ventana{box-shadow: 24px 0 0 0 hsl(44, 92%, 65%), 48px 0 0 0 hsl(123, 54%, 59%);}
+.aplicacion__cabecera{border-bottom: 1px solid black;}
 
 /*
 Organización: por objetos.
@@ -40,11 +70,8 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   display: flex;
   height: 58px;
   align-items: center;
-  border-bottom: 1px solid black;
   white-space: nowrap;
 }
-
-
 
 .aplicacion__opt-generales{display: flex;}
 
@@ -68,7 +95,6 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  box-shadow: 24px 0 0 0 #f8ce52, 48px 0 0 0 #5fcf65;
   margin-right: 190px;
   flex-shrink:0;
 }
@@ -82,7 +108,6 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 .contenido__resumeme{
   display: flex;
   border-radius:14px;
-  background-image:linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
   padding:20px 24px;
   align-items:center;  
 }
