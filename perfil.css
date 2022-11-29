@@ -64,6 +64,8 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 */
 
 
+body{margin:0;}
+
 
 /*aplicacion*/
 .aplicacion__cabecera{
