@@ -127,6 +127,8 @@ body{box-sizing:border-box;}
   .aplicacion__opt-ventana, .opt_generales__nombre, 
   .opt_generales__trabajos, .opt_generales__descubre,.aplicacion__opciones-personales{display: none;}
   body{padding: .8rem}
+  
+  .aplicacion__opciones-y-contenido{padding: 2rem 1rem;}
 }
 
 @media screen and (max-width: 750px){
