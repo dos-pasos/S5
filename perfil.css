@@ -22,6 +22,7 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
   --dimGray9999: hsl(0, 0%, 40%);
   --darkGray: hsl(0, 0%, 30%);
   --white: hsl(0, 0%, 100%);
+  font-size: 16px;
 }
 
 body{background-color: var(--khaki9996);}
@@ -65,9 +66,13 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
 
 
 body{margin:0;}
+body{min-width: 400px;}
+body{box-sizing:border-box;}
 
 
 /*aplicacion*/
+.aplicacion{border-radius: 1rem;}
+
 .aplicacion__cabecera{
   display: flex;
   height: 58px;
@@ -121,11 +126,12 @@ body{margin:0;}
 @media screen and (max-width:500px){
   .aplicacion__opt-ventana, .opt_generales__nombre, 
   .opt_generales__trabajos, .opt_generales__descubre,.aplicacion__opciones-personales{display: none;}
-  
+  body{padding: .8rem}
 }
 
 @media screen and (max-width: 750px){
-
+  
+  
 }
 
 @media screen and (max-width: 1000px){
